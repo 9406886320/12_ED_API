@@ -1,0 +1,14 @@
+
+server.port: 9099
+
+spring:
+  datasource:
+    username: root
+    password: primesoft
+    url: jdbc:mysql://localhost:3306/jrtp
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
